@@ -31,6 +31,7 @@ KDDTrain+.txt (Training Data)
 KDDTest+.txt (Testing Data)
 
 Execution
+
 Save the project code as ids_gui_app.py.
 
 Run the application from your terminal:
@@ -38,6 +39,7 @@ Run the application from your terminal:
 python nsl_kdd.py
 
 🚀 Workflow
+
 Once the application launches, follow the numbered buttons in sequence:
 
 Load & Preprocess Data: Loads the two .txt files, handles one-hot encoding for categorical features (like protocol type and service), scales numerical data, and aligns the 118 resulting features.
@@ -56,6 +58,7 @@ False Negatives: Number of actual attacks that were missed (the most dangerous t
 False Positives: Number of normal connections mistakenly flagged as attacks (false alarms).
 
 💡 Future Enhancements
+
 Integrate additional classifiers (e.g., XGBoost, Deep Neural Networks) for comparative analysis.
 
 Add a live feature importance visualization tool.
