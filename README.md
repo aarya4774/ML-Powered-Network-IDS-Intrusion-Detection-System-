@@ -35,7 +35,7 @@ Save the project code as ids_gui_app.py.
 
 Run the application from your terminal:
 
-python ids_gui_app.py
+python nsl_kdd.py
 
 🚀 Workflow
 Once the application launches, follow the numbered buttons in sequence:
